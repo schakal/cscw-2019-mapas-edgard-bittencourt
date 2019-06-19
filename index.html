@@ -15,6 +15,29 @@
         <h3>Meu nome é Edgard Bittencourt, matrícula:0050007061.</h3>
         <p><img src="res/eu.jpeg" height="300"><br/>Seja Bem vindo aos meus pontos de interesse, aqui apresento um local que já tive o prazer de visitar e mais duas sugestões de amigos. Pegue uma cadeira e curta o passeio!.</p>
     </section>
+    <section id='Amigo1'>
+        <p class="timepoint">Tour LA Salle</p>
+        <h3>Centro Tecnológico</h3>
+	<p class="timepoint">Junho, 18 de 2019</p>
+	<p><video height="350" controls>
+				<source src="res/example.mp4" type="video/mp4">
+				<source src="res/example.ogg" type="video/ogg">
+			Seu navegador nâo suporta tags de vídeo.
+			</video><br/>Um prédio. Cinco andares. Doze laboratórios. Sala de Topografia e Sala dos professores. Núcleo de Projetos de Arquitetura e Engenharia Civil. Esse é o Centro Tecnológico Unilasalle-RJ, inaugurado em outubro de 2016.</p>
+        <p><img src="res/centrotecnologico.jpeg" height="300"/></p>
+	<center>
+		<div class="container">
+			<ul class="icons">
+				<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+				<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+				<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+				<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+			</ul>
+		</div>
+		<br>
+	</center>
+	
+    </section>
     <section id='Meu1' class='active'>
         <p class="timepoint">Maio de 2019</p>
         <h3>Ceh Achegue</h3>
@@ -23,11 +46,6 @@
 				<source src="res/example.ogg" type="video/ogg">
 			Seu navegador nâo suporta tags de vídeo.
 			</video><br/>Um recanto com cachoeiras de agua cristalina para tirar o estresse do dia a dia!</p>
-    </section>
-     <section id='Amigo1'>
-        <p class="timepoint">Dica do Amigo ??? - INSIRA A DATA DA VISITA NO LOCAL AQUI!! </p>
-        <h3>NOME DO LOCAL</h3>
-        <p><img src="https://exploreniteroi.files.wordpress.com/2015/08/img_2942.jpg" width="350"/><br/>DESCRIÇÃO E COMENTARIOS</p>
     </section>
     <section id='Amigo2'>
         <p class="timepoint">Dica do Amigo ??? - INSIRA A DATA DA VISITA NO LOCAL AQUI!!</p>
@@ -47,7 +65,7 @@ var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/streets-v10',
         bearing: 0,
-        center: [-43.106577,-22.896528],
+        center: [-58.0859409,-15.6190935],
         zoom: 17,
         speed: 0.8,
         pitch: 0
@@ -55,7 +73,7 @@ var map = new mapboxgl.Map({
 var chapters = {
     'welcome': {
         bearing: 0,
-        center: [-43.1061191,-22.8971284],
+        center: [-58.0859409,-15.6190935],
         zoom: 17,
         speed: 0.8,
         pitch: 0
@@ -67,7 +85,7 @@ var chapters = {
         pitch: 54.00
     },
     'Amigo1': { //Amigo 1
-        center: [-43.1065268-22.8987912],
+        center: [-43.107024,-22.895895],
         bearing: 1.60,
         zoom: 18.89,
         speed: 0.6,
